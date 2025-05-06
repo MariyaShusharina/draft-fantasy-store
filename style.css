@@ -42,7 +42,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	
-	background-color: var(--cosmos);
+	background-color: var(--blue);
 }
 
 main {
@@ -416,11 +416,11 @@ footer {
 		background-color: var(--transparent-white-30);
 	}
 
-	.gift-card:hover {
+	.product-card:hover {
 		transform: scale(1.05);
 	}
 
-	.gift-card:hover div h3 {
+	.product-card:hover div h3 {
 		color: var(--white);
 	}
 
