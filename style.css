@@ -79,7 +79,7 @@ ul {
 	padding: 0;
 }
 
-li { display: flex; }
+li {}
 
 /* Text-styles */
 
@@ -162,18 +162,28 @@ nav {
 	list-style: none;
 }
 
+.nav-item, .nav-item-active {
+	padding: 0.8rem 1.3rem 0.8rem 1rem;
+	border-radius: 1rem;
+
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+}
+
 .nav-item {
-	padding: 12px 20px;
-	border-radius: 12px;
 	transition: all ease-in-out 0.4s;
 	cursor: pointer;
 }
 
 .nav-item-active {
-	padding: 12px 20px;
-	border-radius: 12px;
 	background-color: var(--transparent-white-30);
 	cursor: default;
+}
+
+.nav-icon {
+	width: 1.5rem;
+	height: 1.5rem;
 }
 
 .burger {
